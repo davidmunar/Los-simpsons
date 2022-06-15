@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.cajafondo1{
+    display: flex;
+    border: 1px #ff81c1 solid;
+    height: 8rem;
+    background-color:  	#c0f8fd;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+  color: #f6d010;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: 100;
+}
+a{
+    height: 5rem;
+    border: 2px solid !important;
+}
+a:hover{
+    height: 5rem;
+    color: #f6d010 !important;
+
+}
+h4{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.anima1{
+    transition: tramsform .10s !important;
+}
+
+.anima1:hover{
+    transform: scale(2.0);
+}
